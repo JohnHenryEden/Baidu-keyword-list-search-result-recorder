@@ -9,8 +9,8 @@ driver.get("http://www2.baidu.com")
 print("开始登录")
 time.sleep(2)
 driver.find_element_by_class_name("tab-header").click()
-driver.find_element_by_id("uc-common-account").send_keys("JohnHEden")
-driver.find_element_by_id("ucsl-password-edit").send_keys("E3nclave")
+driver.find_element_by_id("uc-common-account").send_keys("***Censored***")
+driver.find_element_by_id("ucsl-password-edit").send_keys("***Censored***")
 print("请输入验证码！")
 while 1:
     if driver.find_element_by_id("uc-common-token").text is not None:
